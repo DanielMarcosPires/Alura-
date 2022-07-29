@@ -1,0 +1,166 @@
+body{
+    overflow-x: hidden;
+    background: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/img/Background.png);
+    width: 100%;
+    height: 600px;
+}
+header picture{
+  position: relative;
+  top: 5em;
+  left: 3em;
+    
+   
+}
+button{
+    
+    background: #167bf7;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.5em;
+    border: none;
+    border-radius: 8px;
+    padding: 1em;
+}
+button:hover{
+background: white;
+color: black;
+}
+
+article{
+    margin: 10em 0;
+}
+
+.plataforma{
+    position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin: 5em 50%;
+  transform: translate(-50%);
+}
+.descricao{
+   
+    margin: 0 4em;
+    width: 600px;
+}
+.descricao:nth-child(1){
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+   
+    
+    font-size: 2em;
+}
+.info{
+    text-align: 5px;
+    color: #ffffff93;
+}
+#infoplus{
+    font-family: 'Inter';
+    background: linear-gradient(90deg,black ,transparent 30%);
+    color: #C0C0C0;
+    font-size: 12px;
+}
+.descricao:nth-child(1) p{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+.descricao:nth-child(1) img{
+    width: 50%;
+    margin: 1em auto;
+}
+.assinar{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.assinar button:nth-child(2){
+    transition: 0.2s;
+    background: linear-gradient(90deg,#fff ,transparent 0%);
+    border: solid 1px;
+}
+.assinar button:nth-child(2):hover{
+    background: white;
+    color: black; 
+}
+
+.descricao h2{
+    
+    font-size: 3em;
+    margin: 16px 0;
+}
+.descricao p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 650px;
+    color: #ffffff93;
+}
+.alura_combo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 5em auto;
+    width: 1000px;
+}
+.alura_combo p{
+    width: 500px;
+}
+.alura_combo img{
+    position: absolute;
+    right: 0;
+
+}
+.alura_combo .descricao{
+    display: inline-flex;
+    align-items: left;
+    position: absolute;
+  
+    margin: 50px 0;
+    left: 0;
+}
+.alura_combo .descricao p{
+    text-align: left;
+    font-size: 15px;
+    color: #C0C0C0;
+}
+.alura_combo button{
+    margin: 10px 0;
+    width: 200px;
+}
+
+.baixe-cursos{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 30em;
+    right: 100px;
+    width: 910px;
+    margin: 0 auto;
+}
+.baixe-cursos p{
+    width: 550px;
+}
+.dispositivos{
+    position: relative;
+    top: 50em;
+    left: 50%;
+    transform: translate(-40%);
+    margin: 0 auto;
+}
+footer{
+    position: relative;
+    top: 50em;
+    left: 10%;
+   background: url(../assets/img/Group\ 26.png);
+   background-repeat: no-repeat;
+   height: 300px;
+}
